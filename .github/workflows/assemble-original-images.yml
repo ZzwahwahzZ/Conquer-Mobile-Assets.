@@ -2,8 +2,8 @@ name: Assemble original Conquer Mobile image archive
 
 on:
   push:
-    paths:
-      - ".github/workflows/assemble-original-images.yml"
+    branches:
+      - main
 
 permissions:
   contents: write
