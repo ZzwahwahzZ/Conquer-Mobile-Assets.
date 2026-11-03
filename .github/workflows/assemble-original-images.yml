@@ -20,12 +20,12 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y p7zip-full file unzip
 
-      - name: Download, verify, join, and unpack the uploaded container
+      - name: Download, verify, join, and extract the uploaded containers
         shell: bash
         run: |
           set -euo pipefail
           base="https://raw.githubusercontent.com/ZzwahwahzZ/Conquer-Mobile-Assets./main"
-          mkdir -p /tmp/conquer-parts /tmp/conquer-inner
+          mkdir -p /tmp/conquer-parts /tmp/conquer-inner /tmp/conquer-payload
           cd /tmp/conquer-parts
 
           curl --fail --location --retry 3 "$base/conquer_original_reference_images.7z.t0.001" -o archive.7z.001
@@ -43,15 +43,21 @@ jobs:
           7z x "$GITHUB_WORKSPACE/conquer_original_reference_images.7z" -o/tmp/conquer-inner -y
           inner="/tmp/conquer-inner/conquer_original_reference_images.7z"
           test -s "$inner"
-          file "$inner"
           7z t "$inner"
-          7z l "$inner" | tee "$GITHUB_WORKSPACE/original_archive_contents.txt"
+          7z x "$inner" -o/tmp/conquer-payload -y
 
-          if file "$inner" | grep -qi 'Zip archive'; then
-            cp "$inner" "$GITHUB_WORKSPACE/conquer_original_reference_images.zip"
+          payload="/tmp/conquer-payload/conquer_original_reference_images.zip"
+          test -s "$payload"
+          file "$payload" | tee "$GITHUB_WORKSPACE/original_payload_filetype.txt"
+
+          if file "$payload" | grep -qi 'Zip archive'; then
+            cp "$payload" "$GITHUB_WORKSPACE/conquer_original_reference_images.zip"
             unzip -t "$GITHUB_WORKSPACE/conquer_original_reference_images.zip"
+            unzip -Z1 "$GITHUB_WORKSPACE/conquer_original_reference_images.zip" > "$GITHUB_WORKSPACE/original_archive_contents.txt"
           else
-            cp "$inner" "$GITHUB_WORKSPACE/conquer_original_reference_images.inner.7z"
+            7z t "$payload"
+            cp "$payload" "$GITHUB_WORKSPACE/conquer_original_reference_images.payload.7z"
+            7z l "$payload" > "$GITHUB_WORKSPACE/original_archive_contents.txt"
           fi
 
       - name: Commit verified original archive to main
@@ -62,7 +68,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git pull --rebase origin main
-          git add conquer_original_reference_images.7z conquer_original_reference_images.zip conquer_original_reference_images.inner.7z original_archive_contents.txt 2>/dev/null || true
+          git add conquer_original_reference_images.7z original_payload_filetype.txt original_archive_contents.txt
+          if [ -f conquer_original_reference_images.zip ]; then git add conquer_original_reference_images.zip; fi
+          if [ -f conquer_original_reference_images.payload.7z ]; then git add conquer_original_reference_images.payload.7z; fi
           if ! git diff --cached --quiet; then
             git commit -m "Add verified original image archive"
             git push origin HEAD:main
