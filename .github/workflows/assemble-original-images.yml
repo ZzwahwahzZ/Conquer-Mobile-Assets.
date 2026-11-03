@@ -15,17 +15,17 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Install 7-Zip
+      - name: Install 7-Zip and unzip
         run: |
           sudo apt-get update
-          sudo apt-get install -y p7zip-full
+          sudo apt-get install -y p7zip-full file unzip
 
-      - name: Download, verify, and join all three volumes
+      - name: Download, verify, join, and unpack the uploaded container
         shell: bash
         run: |
           set -euo pipefail
           base="https://raw.githubusercontent.com/ZzwahwahzZ/Conquer-Mobile-Assets./main"
-          mkdir -p /tmp/conquer-parts
+          mkdir -p /tmp/conquer-parts /tmp/conquer-inner
           cd /tmp/conquer-parts
 
           curl --fail --location --retry 3 "$base/conquer_original_reference_images.7z.t0.001" -o archive.7z.001
@@ -39,15 +39,31 @@ jobs:
           7z t archive.7z.001
           cat archive.7z.001 archive.7z.002 archive.7z.003 > "$GITHUB_WORKSPACE/conquer_original_reference_images.7z"
           7z t "$GITHUB_WORKSPACE/conquer_original_reference_images.7z"
-          7z l "$GITHUB_WORKSPACE/conquer_original_reference_images.7z"
 
-      - name: Commit the verified combined archive to main
+          7z x "$GITHUB_WORKSPACE/conquer_original_reference_images.7z" -o/tmp/conquer-inner -y
+          inner="/tmp/conquer-inner/conquer_original_reference_images.7z"
+          test -s "$inner"
+          file "$inner"
+          7z t "$inner"
+          7z l "$inner" | tee "$GITHUB_WORKSPACE/original_archive_contents.txt"
+
+          if file "$inner" | grep -qi 'Zip archive'; then
+            cp "$inner" "$GITHUB_WORKSPACE/conquer_original_reference_images.zip"
+            unzip -t "$GITHUB_WORKSPACE/conquer_original_reference_images.zip"
+          else
+            cp "$inner" "$GITHUB_WORKSPACE/conquer_original_reference_images.inner.7z"
+          fi
+
+      - name: Commit verified original archive to main
         shell: bash
         run: |
           set -euo pipefail
           cd "$GITHUB_WORKSPACE"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add conquer_original_reference_images.7z
-          git commit -m "Add verified combined original image archive"
-          git push origin HEAD:main
+          git pull --rebase origin main
+          git add conquer_original_reference_images.7z conquer_original_reference_images.zip conquer_original_reference_images.inner.7z original_archive_contents.txt 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "Add verified original image archive"
+            git push origin HEAD:main
+          fi
