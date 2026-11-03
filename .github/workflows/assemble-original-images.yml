@@ -25,7 +25,7 @@ jobs:
         run: |
           set -euo pipefail
           base="https://raw.githubusercontent.com/ZzwahwahzZ/Conquer-Mobile-Assets./main"
-          mkdir -p /tmp/conquer-parts /tmp/conquer-inner /tmp/conquer-payload
+          mkdir -p /tmp/conquer-parts /tmp/conquer-inner /tmp/conquer-payload /tmp/conquer-images
           cd /tmp/conquer-parts
 
           curl --fail --location --retry 3 "$base/conquer_original_reference_images.7z.t0.001" -o archive.7z.001
@@ -49,18 +49,18 @@ jobs:
           payload="/tmp/conquer-payload/conquer_original_reference_images.zip"
           test -s "$payload"
           file "$payload" | tee "$GITHUB_WORKSPACE/original_payload_filetype.txt"
+          unzip -t "$payload"
+          unzip -q "$payload" -d /tmp/conquer-images
 
-          if file "$payload" | grep -qi 'Zip archive'; then
-            cp "$payload" "$GITHUB_WORKSPACE/conquer_original_reference_images.zip"
-            unzip -t "$GITHUB_WORKSPACE/conquer_original_reference_images.zip"
-            unzip -Z1 "$GITHUB_WORKSPACE/conquer_original_reference_images.zip" > "$GITHUB_WORKSPACE/original_archive_contents.txt"
-          else
-            7z t "$payload"
-            cp "$payload" "$GITHUB_WORKSPACE/conquer_original_reference_images.payload.7z"
-            7z l "$payload" > "$GITHUB_WORKSPACE/original_archive_contents.txt"
-          fi
+          image_count=$(find /tmp/conquer-images -type f \( -iname '*.png' -o -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.webp' \) | wc -l)
+          test "$image_count" -eq 42
+          mkdir -p "$GITHUB_WORKSPACE/original_images"
+          cp -a /tmp/conquer-images/conquer_original_reference_images/. "$GITHUB_WORKSPACE/original_images/"
+          find "$GITHUB_WORKSPACE/original_images" -type f | sort | sed "s|$GITHUB_WORKSPACE/||" > "$GITHUB_WORKSPACE/original_images_manifest.txt"
+          printf 'Verified extracted image count: %s\n' "$image_count" > "$GITHUB_WORKSPACE/original_images_report.txt"
+          du -sh "$GITHUB_WORKSPACE/original_images" >> "$GITHUB_WORKSPACE/original_images_report.txt"
 
-      - name: Commit verified original archive to main
+      - name: Commit extracted original images and verified archives to main
         shell: bash
         run: |
           set -euo pipefail
@@ -68,10 +68,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git pull --rebase origin main
-          git add conquer_original_reference_images.7z original_payload_filetype.txt original_archive_contents.txt
-          if [ -f conquer_original_reference_images.zip ]; then git add conquer_original_reference_images.zip; fi
-          if [ -f conquer_original_reference_images.payload.7z ]; then git add conquer_original_reference_images.payload.7z; fi
+          git add conquer_original_reference_images.7z original_payload_filetype.txt original_images original_images_manifest.txt original_images_report.txt
           if ! git diff --cached --quiet; then
-            git commit -m "Add verified original image archive"
+            git commit -m "Extract and publish original Conquer Mobile reference images"
             git push origin HEAD:main
           fi
