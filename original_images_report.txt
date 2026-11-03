@@ -1,0 +1,2 @@
+Verified extracted image count: 42
+31M	/home/runner/work/Conquer-Mobile-Assets./Conquer-Mobile-Assets./original_images

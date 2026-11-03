@@ -1,0 +1,127 @@
+{
+  "total_valid_images": 42,
+  "categories": {
+    "characters": 20,
+    "maps": 5,
+    "mounts": 5,
+    "equipment": 1,
+    "monsters": 11
+  },
+  "total_image_bytes": 31364288,
+  "pages": [
+    {
+      "category": "characters",
+      "url": "https://comobile.99.com/guide/info/classes/2023-01-31/classes_-_classes_introduction.shtml",
+      "status": "read",
+      "image_candidates": 2
+    },
+    {
+      "category": "characters",
+      "url": "https://comobile.99.com/guide/info/classes/2023-01-31/classes_-_classes_introduction.shtml",
+      "status": "read_related",
+      "image_candidates": 2
+    },
+    {
+      "category": "characters",
+      "url": "https://comobile.99.com/guide/info/classes/2023-01-31/classes_-_thunderstriker.shtml",
+      "status": "read_related",
+      "image_candidates": 2
+    },
+    {
+      "category": "characters",
+      "url": "https://comobile.99.com/guide/info/classes/2023-01-31/classes_-_windwalker.shtml",
+      "status": "read_related",
+      "image_candidates": 2
+    },
+    {
+      "category": "characters",
+      "url": "https://comobile.99.com/guide/info/classes/2023-01-31/classes_-_ninja.shtml",
+      "status": "read_related",
+      "image_candidates": 2
+    },
+    {
+      "category": "characters",
+      "url": "https://comobile.99.com/guide/info/classes/2023-01-31/classes_-_monk.shtml",
+      "status": "read_related",
+      "image_candidates": 2
+    },
+    {
+      "category": "characters",
+      "url": "https://comobile.99.com/guide/info/classes/2023-01-31/classes_-_dragon_warrior.shtml",
+      "status": "read_related",
+      "image_candidates": 2
+    },
+    {
+      "category": "characters",
+      "url": "https://comobile.99.com/guide/info/classes/2023-01-31/classes_-_archer.shtml",
+      "status": "read_related",
+      "image_candidates": 2
+    },
+    {
+      "category": "characters",
+      "url": "https://comobile.99.com/guide/info/classes/2023-01-31/classes_-_pirate.shtml",
+      "status": "read_related",
+      "image_candidates": 2
+    },
+    {
+      "category": "characters",
+      "url": "https://comobile.99.com/guide/info/classes/2023-01-31/classes_-_warrior.shtml",
+      "status": "read_related",
+      "image_candidates": 2
+    },
+    {
+      "category": "characters",
+      "url": "https://comobile.99.com/guide/info/classes/2023-02-01/classes_-_water_taoist.shtml",
+      "status": "read_related",
+      "image_candidates": 2
+    },
+    {
+      "category": "characters",
+      "url": "https://comobile.99.com/guide/info/classes/2023-02-01/classes_-_fire_taoist.shtml",
+      "status": "read_related",
+      "image_candidates": 2
+    },
+    {
+      "category": "maps",
+      "url": "https://comobile.99.com/guide/info/maps/2023-02-17/guide_-_maps.shtml",
+      "status": "read",
+      "image_candidates": 6
+    },
+    {
+      "category": "mounts",
+      "url": "https://comobile.99.com/guide/info/classes/2023-02-14/status_-_mount_system.shtml",
+      "status": "read",
+      "image_candidates": 5
+    },
+    {
+      "category": "equipment",
+      "url": "https://comobile.99.com/guide/info/equipment/2023-02-15/equipment_-_equipment_type.shtml",
+      "status": "read",
+      "image_candidates": 1
+    },
+    {
+      "category": "monsters",
+      "url": "https://co.99.com/downloads/wallpapers_monster.shtml",
+      "status": "read",
+      "image_candidates": 14
+    }
+  ],
+  "source_pages": {
+    "characters": [
+      "https://comobile.99.com/guide/info/classes/2023-01-31/classes_-_classes_introduction.shtml"
+    ],
+    "maps": [
+      "https://comobile.99.com/guide/info/maps/2023-02-17/guide_-_maps.shtml"
+    ],
+    "mounts": [
+      "https://comobile.99.com/guide/info/classes/2023-02-14/status_-_mount_system.shtml"
+    ],
+    "equipment": [
+      "https://comobile.99.com/guide/info/equipment/2023-02-15/equipment_-_equipment_type.shtml"
+    ],
+    "monsters": [
+      "https://co.99.com/downloads/wallpapers_monster.shtml"
+    ]
+  },
+  "note": "Only publicly accessible images embedded in listed guide/gallery pages are collected; this is not a game-client asset extractor."
+}
