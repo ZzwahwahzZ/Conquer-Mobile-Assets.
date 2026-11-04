@@ -1,0 +1,15 @@
+{
+  "source": "original_images directory, populated by verified 7z.001/.002/.003 -> nested 7z -> ZIP extraction workflow",
+  "image_files_found": 42,
+  "images_successfully_decoded": 42,
+  "decode_errors": [],
+  "exact_duplicate_files": 0,
+  "categories": {
+    "characters": 20,
+    "equipment": 1,
+    "maps": 5,
+    "monsters": 11,
+    "mounts": 5
+  },
+  "important_limit": "Resolution, entropy and contrast are technical screening metrics. Final suitability for single-image-to-3D depends on visual subject isolation, full-body visibility, viewpoint, occlusion and semantic category."
+}
