@@ -37,3 +37,4 @@ monsters/monsters_0009_co_w17s.jpg,FAILED,,,0,0,TypeError: TSR.extract_mesh() mi
 monsters/monsters_0010_co800_w17s2448r3G144.jpg,FAILED,,,0,0,TypeError: TSR.extract_mesh() missing 1 required positional argument: 'has_vertex_color'
 monsters/monsters_0011_full_bg.jpg,FAILED,,,0,0,TypeError: TSR.extract_mesh() missing 1 required positional argument: 'has_vertex_color'
 mounts/mounts_0001_82-2302141501351R.png,FAILED,,,0,0,TypeError: TSR.extract_mesh() missing 1 required positional argument: 'has_vertex_color'
+mounts/mounts_0002_82-230214144304112.png,FAILED,,,0,0,TypeError: TSR.extract_mesh() missing 1 required positional argument: 'has_vertex_color'
