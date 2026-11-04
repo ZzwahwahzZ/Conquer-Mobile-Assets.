@@ -1,0 +1,430 @@
+{
+  "archive_bytes": 24023224,
+  "total_extracted_files": 84,
+  "image_files_detected_by_content": 0,
+  "non_image_files": 84,
+  "read_errors": [
+    {
+      "file": "characters__characters_0001_82-2301311S631X8.glb",
+      "bytes": 689320,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0001_82-2301311S631X8.glb'\")"
+    },
+    {
+      "file": "characters__characters_0001_82-2301311S631X8.obj",
+      "bytes": 1394464,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0001_82-2301311S631X8.obj'\")"
+    },
+    {
+      "file": "characters__characters_0002_82-2301311SA3T5.glb",
+      "bytes": 653884,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0002_82-2301311SA3T5.glb'\")"
+    },
+    {
+      "file": "characters__characters_0002_82-2301311SA3T5.obj",
+      "bytes": 1317340,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0002_82-2301311SA3T5.obj'\")"
+    },
+    {
+      "file": "characters__characters_0003_82-2301311R332234.glb",
+      "bytes": 713620,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0003_82-2301311R332234.glb'\")"
+    },
+    {
+      "file": "characters__characters_0003_82-2301311R332234.obj",
+      "bytes": 1445226,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0003_82-2301311R332234.obj'\")"
+    },
+    {
+      "file": "characters__characters_0004_82-2301311R4403M.glb",
+      "bytes": 785064,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0004_82-2301311R4403M.glb'\")"
+    },
+    {
+      "file": "characters__characters_0004_82-2301311R4403M.obj",
+      "bytes": 1597102,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0004_82-2301311R4403M.obj'\")"
+    },
+    {
+      "file": "characters__characters_0005_82-2301311T004517.glb",
+      "bytes": 576460,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0005_82-2301311T004517.glb'\")"
+    },
+    {
+      "file": "characters__characters_0005_82-2301311T004517.obj",
+      "bytes": 1154453,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0005_82-2301311T004517.obj'\")"
+    },
+    {
+      "file": "characters__characters_0006_82-2301311T02O40.glb",
+      "bytes": 563128,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0006_82-2301311T02O40.glb'\")"
+    },
+    {
+      "file": "characters__characters_0006_82-2301311T02O40.obj",
+      "bytes": 1125763,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0006_82-2301311T02O40.obj'\")"
+    },
+    {
+      "file": "characters__characters_0007_82-2301311T415F3.glb",
+      "bytes": 642468,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0007_82-2301311T415F3.glb'\")"
+    },
+    {
+      "file": "characters__characters_0007_82-2301311T415F3.obj",
+      "bytes": 1293678,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0007_82-2301311T415F3.obj'\")"
+    },
+    {
+      "file": "characters__characters_0008_82-2301311T442239.glb",
+      "bytes": 397060,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0008_82-2301311T442239.glb'\")"
+    },
+    {
+      "file": "characters__characters_0008_82-2301311T442239.obj",
+      "bytes": 774672,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0008_82-2301311T442239.obj'\")"
+    },
+    {
+      "file": "characters__characters_0009_82-2301311TH4140.glb",
+      "bytes": 631888,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0009_82-2301311TH4140.glb'\")"
+    },
+    {
+      "file": "characters__characters_0009_82-2301311TH4140.obj",
+      "bytes": 1272240,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0009_82-2301311TH4140.obj'\")"
+    },
+    {
+      "file": "characters__characters_0010_82-2301311TJJ39.glb",
+      "bytes": 707476,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0010_82-2301311TJJ39.glb'\")"
+    },
+    {
+      "file": "characters__characters_0010_82-2301311TJJ39.obj",
+      "bytes": 1430582,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0010_82-2301311TJJ39.obj'\")"
+    },
+    {
+      "file": "characters__characters_0011_82-2301311U021534.glb",
+      "bytes": 749656,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0011_82-2301311U021534.glb'\")"
+    },
+    {
+      "file": "characters__characters_0011_82-2301311U021534.obj",
+      "bytes": 1523283,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0011_82-2301311U021534.obj'\")"
+    },
+    {
+      "file": "characters__characters_0012_82-2301311U040422.glb",
+      "bytes": 729252,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0012_82-2301311U040422.glb'\")"
+    },
+    {
+      "file": "characters__characters_0012_82-2301311U040422.obj",
+      "bytes": 1478205,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0012_82-2301311U040422.obj'\")"
+    },
+    {
+      "file": "characters__characters_0013_82-2301311U405327.glb",
+      "bytes": 613876,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0013_82-2301311U405327.glb'\")"
+    },
+    {
+      "file": "characters__characters_0013_82-2301311U405327.obj",
+      "bytes": 1234135,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0013_82-2301311U405327.obj'\")"
+    },
+    {
+      "file": "characters__characters_0014_82-2301311U43K27.glb",
+      "bytes": 582016,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0014_82-2301311U43K27.glb'\")"
+    },
+    {
+      "file": "characters__characters_0014_82-2301311U43K27.obj",
+      "bytes": 1165298,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0014_82-2301311U43K27.obj'\")"
+    },
+    {
+      "file": "characters__characters_0015_82-2301311UH2492.glb",
+      "bytes": 417148,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0015_82-2301311UH2492.glb'\")"
+    },
+    {
+      "file": "characters__characters_0015_82-2301311UH2492.obj",
+      "bytes": 816611,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0015_82-2301311UH2492.obj'\")"
+    },
+    {
+      "file": "characters__characters_0016_82-2301311UJ1321.glb",
+      "bytes": 381928,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0016_82-2301311UJ1321.glb'\")"
+    },
+    {
+      "file": "characters__characters_0016_82-2301311UJ1321.obj",
+      "bytes": 744687,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0016_82-2301311UJ1321.obj'\")"
+    },
+    {
+      "file": "characters__characters_0017_82-2301311Z0512c.glb",
+      "bytes": 615244,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0017_82-2301311Z0512c.glb'\")"
+    },
+    {
+      "file": "characters__characters_0017_82-2301311Z0512c.obj",
+      "bytes": 1237491,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0017_82-2301311Z0512c.obj'\")"
+    },
+    {
+      "file": "characters__characters_0018_82-2301311Z1323c.glb",
+      "bytes": 743452,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0018_82-2301311Z1323c.glb'\")"
+    },
+    {
+      "file": "characters__characters_0018_82-2301311Z1323c.obj",
+      "bytes": 1509966,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0018_82-2301311Z1323c.obj'\")"
+    },
+    {
+      "file": "characters__characters_0019_82-230201112611110.glb",
+      "bytes": 439876,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0019_82-230201112611110.glb'\")"
+    },
+    {
+      "file": "characters__characters_0019_82-230201112611110.obj",
+      "bytes": 865680,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0019_82-230201112611110.obj'\")"
+    },
+    {
+      "file": "characters__characters_0020_82-230201112K1a1.glb",
+      "bytes": 426336,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0020_82-230201112K1a1.glb'\")"
+    },
+    {
+      "file": "characters__characters_0020_82-230201112K1a1.obj",
+      "bytes": 836884,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/characters__characters_0020_82-230201112K1a1.obj'\")"
+    },
+    {
+      "file": "equipment__equipment_0001_82-230215143055423.glb",
+      "bytes": 886684,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/equipment__equipment_0001_82-230215143055423.glb'\")"
+    },
+    {
+      "file": "equipment__equipment_0001_82-230215143055423.obj",
+      "bytes": 1813086,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/equipment__equipment_0001_82-230215143055423.obj'\")"
+    },
+    {
+      "file": "maps__maps_0001_82-2302131A130446.glb",
+      "bytes": 746508,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/maps__maps_0001_82-2302131A130446.glb'\")"
+    },
+    {
+      "file": "maps__maps_0001_82-2302131A130446.obj",
+      "bytes": 1517332,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/maps__maps_0001_82-2302131A130446.obj'\")"
+    },
+    {
+      "file": "maps__maps_0002_82-2302131A511K8.glb",
+      "bytes": 742872,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/maps__maps_0002_82-2302131A511K8.glb'\")"
+    },
+    {
+      "file": "maps__maps_0002_82-2302131A511K8.obj",
+      "bytes": 1509720,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/maps__maps_0002_82-2302131A511K8.obj'\")"
+    },
+    {
+      "file": "maps__maps_0003_82-2302131F242N2.glb",
+      "bytes": 768180,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/maps__maps_0003_82-2302131F242N2.glb'\")"
+    },
+    {
+      "file": "maps__maps_0003_82-2302131F242N2.obj",
+      "bytes": 1564836,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/maps__maps_0003_82-2302131F242N2.obj'\")"
+    },
+    {
+      "file": "maps__maps_0004_82-2302131F61Nb.glb",
+      "bytes": 628452,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/maps__maps_0004_82-2302131F61Nb.glb'\")"
+    },
+    {
+      "file": "maps__maps_0004_82-2302131F61Nb.obj",
+      "bytes": 1266138,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/maps__maps_0004_82-2302131F61Nb.obj'\")"
+    },
+    {
+      "file": "maps__maps_0005_82-2302131FU3646.glb",
+      "bytes": 691992,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/maps__maps_0005_82-2302131FU3646.glb'\")"
+    },
+    {
+      "file": "maps__maps_0005_82-2302131FU3646.obj",
+      "bytes": 1399517,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/maps__maps_0005_82-2302131FU3646.obj'\")"
+    },
+    {
+      "file": "monsters__monsters_0001_co_hd_100531.glb",
+      "bytes": 685240,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/monsters__monsters_0001_co_hd_100531.glb'\")"
+    },
+    {
+      "file": "monsters__monsters_0001_co_hd_100531.obj",
+      "bytes": 1387892,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/monsters__monsters_0001_co_hd_100531.obj'\")"
+    },
+    {
+      "file": "monsters__monsters_0002_111214_hero.glb",
+      "bytes": 669340,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/monsters__monsters_0002_111214_hero.glb'\")"
+    },
+    {
+      "file": "monsters__monsters_0002_111214_hero.obj",
+      "bytes": 1353260,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/monsters__monsters_0002_111214_hero.obj'\")"
+    },
+    {
+      "file": "monsters__monsters_0003_co_w19s.glb",
+      "bytes": 747976,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/monsters__monsters_0003_co_w19s.glb'\")"
+    },
+    {
+      "file": "monsters__monsters_0003_co_w19s.obj",
+      "bytes": 1519738,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/monsters__monsters_0003_co_w19s.obj'\")"
+    },
+    {
+      "file": "monsters__monsters_0004_co800_w19sn3LDR1J6T6.glb",
+      "bytes": 706288,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/monsters__monsters_0004_co800_w19sn3LDR1J6T6.glb'\")"
+    },
+    {
+      "file": "monsters__monsters_0004_co800_w19sn3LDR1J6T6.obj",
+      "bytes": 1429311,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/monsters__monsters_0004_co800_w19sn3LDR1J6T6.obj'\")"
+    },
+    {
+      "file": "monsters__monsters_0005_co_w20s.glb",
+      "bytes": 768276,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/monsters__monsters_0005_co_w20s.glb'\")"
+    },
+    {
+      "file": "monsters__monsters_0005_co_w20s.obj",
+      "bytes": 1565087,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/monsters__monsters_0005_co_w20s.obj'\")"
+    },
+    {
+      "file": "monsters__monsters_0006_co800_w20s4HYM32L4l2.glb",
+      "bytes": 845920,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/monsters__monsters_0006_co800_w20s4HYM32L4l2.glb'\")"
+    },
+    {
+      "file": "monsters__monsters_0006_co800_w20s4HYM32L4l2.obj",
+      "bytes": 1729616,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/monsters__monsters_0006_co800_w20s4HYM32L4l2.obj'\")"
+    },
+    {
+      "file": "monsters__monsters_0007_co_w21s.glb",
+      "bytes": 596404,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/monsters__monsters_0007_co_w21s.glb'\")"
+    },
+    {
+      "file": "monsters__monsters_0007_co_w21s.obj",
+      "bytes": 1198911,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/monsters__monsters_0007_co_w21s.obj'\")"
+    },
+    {
+      "file": "monsters__monsters_0008_co800_w21sh8e5O31hS4.glb",
+      "bytes": 661708,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/monsters__monsters_0008_co800_w21sh8e5O31hS4.glb'\")"
+    },
+    {
+      "file": "monsters__monsters_0008_co800_w21sh8e5O31hS4.obj",
+      "bytes": 1336277,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/monsters__monsters_0008_co800_w21sh8e5O31hS4.obj'\")"
+    },
+    {
+      "file": "monsters__monsters_0009_co_w17s.glb",
+      "bytes": 757332,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/monsters__monsters_0009_co_w17s.glb'\")"
+    },
+    {
+      "file": "monsters__monsters_0009_co_w17s.obj",
+      "bytes": 1540992,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/monsters__monsters_0009_co_w17s.obj'\")"
+    },
+    {
+      "file": "monsters__monsters_0010_co800_w17s2448r3G144.glb",
+      "bytes": 748416,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/monsters__monsters_0010_co800_w17s2448r3G144.glb'\")"
+    },
+    {
+      "file": "monsters__monsters_0010_co800_w17s2448r3G144.obj",
+      "bytes": 1520793,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/monsters__monsters_0010_co800_w17s2448r3G144.obj'\")"
+    },
+    {
+      "file": "monsters__monsters_0011_full_bg.glb",
+      "bytes": 841528,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/monsters__monsters_0011_full_bg.glb'\")"
+    },
+    {
+      "file": "monsters__monsters_0011_full_bg.obj",
+      "bytes": 1718806,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/monsters__monsters_0011_full_bg.obj'\")"
+    },
+    {
+      "file": "mounts__mounts_0001_82-2302141501351R.glb",
+      "bytes": 708160,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/mounts__mounts_0001_82-2302141501351R.glb'\")"
+    },
+    {
+      "file": "mounts__mounts_0001_82-2302141501351R.obj",
+      "bytes": 1436352,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/mounts__mounts_0001_82-2302141501351R.obj'\")"
+    },
+    {
+      "file": "mounts__mounts_0002_82-230214144304112.glb",
+      "bytes": 711940,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/mounts__mounts_0002_82-230214144304112.glb'\")"
+    },
+    {
+      "file": "mounts__mounts_0002_82-230214144304112.obj",
+      "bytes": 1444756,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/mounts__mounts_0002_82-230214144304112.obj'\")"
+    },
+    {
+      "file": "mounts__mounts_0003_82-230214144I41T.glb",
+      "bytes": 528640,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/mounts__mounts_0003_82-230214144I41T.glb'\")"
+    },
+    {
+      "file": "mounts__mounts_0003_82-230214144I41T.obj",
+      "bytes": 1049777,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/mounts__mounts_0003_82-230214144I41T.obj'\")"
+    },
+    {
+      "file": "mounts__mounts_0004_82-230214145559115.glb",
+      "bytes": 850864,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/mounts__mounts_0004_82-230214145559115.glb'\")"
+    },
+    {
+      "file": "mounts__mounts_0004_82-230214145559115.obj",
+      "bytes": 1735984,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/mounts__mounts_0004_82-230214145559115.obj'\")"
+    },
+    {
+      "file": "mounts__mounts_0005_82-230214150623127.glb",
+      "bytes": 736696,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/mounts__mounts_0005_82-230214150623127.glb'\")"
+    },
+    {
+      "file": "mounts__mounts_0005_82-230214150623127.obj",
+      "bytes": 1493246,
+      "not_decodable_as_image": "UnidentifiedImageError(\"cannot identify image file '/tmp/source_archive/mounts__mounts_0005_82-230214150623127.obj'\")"
+    }
+  ],
+  "exact_duplicate_files": 0,
+  "note": "This is an inventory and technical image screen. Visual suitability for single-image-to-3D still requires reviewing the actual image contact sheet."
+}
