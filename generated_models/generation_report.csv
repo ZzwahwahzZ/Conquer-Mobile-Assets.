@@ -1,3 +1,4 @@
 ﻿image,status,obj_path,glb_path,obj_bytes,glb_bytes,error
 characters/characters_0001_82-2301311S631X8.png,FAILED,,,0,0,TypeError: TSR.extract_mesh() missing 1 required positional argument: 'has_vertex_color'
 characters/characters_0002_82-2301311SA3T5.png,FAILED,,,0,0,TypeError: TSR.extract_mesh() missing 1 required positional argument: 'has_vertex_color'
+characters/characters_0003_82-2301311R332234.png,FAILED,,,0,0,TypeError: TSR.extract_mesh() missing 1 required positional argument: 'has_vertex_color'
