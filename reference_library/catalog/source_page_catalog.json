@@ -1,0 +1,1535 @@
+[
+  {
+    "category": "monsters",
+    "name": "Skip to content",
+    "detail_url": "https://classicconqueronline.net/monsters/#content",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "Pheasant",
+    "detail_url": "https://classicconqueronline.net/monsters/1/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "Turtledove",
+    "detail_url": "https://classicconqueronline.net/monsters/2/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "Robin",
+    "detail_url": "https://classicconqueronline.net/monsters/3/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "Apparition",
+    "detail_url": "https://classicconqueronline.net/monsters/4/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "Poltergeist",
+    "detail_url": "https://classicconqueronline.net/monsters/5/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "WingedSnake",
+    "detail_url": "https://classicconqueronline.net/monsters/6/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "Bandit",
+    "detail_url": "https://classicconqueronline.net/monsters/7/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "Ratling",
+    "detail_url": "https://classicconqueronline.net/monsters/8/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "FireSpirit",
+    "detail_url": "https://classicconqueronline.net/monsters/9/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "Macaque",
+    "detail_url": "https://classicconqueronline.net/monsters/10/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "GiantApe",
+    "detail_url": "https://classicconqueronline.net/monsters/11/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "ThunderApe",
+    "detail_url": "https://classicconqueronline.net/monsters/12/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "Snakeman",
+    "detail_url": "https://classicconqueronline.net/monsters/13/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "SandMonster",
+    "detail_url": "https://classicconqueronline.net/monsters/14/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "HillMonster",
+    "detail_url": "https://classicconqueronline.net/monsters/15/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "RockMonster",
+    "detail_url": "https://classicconqueronline.net/monsters/16/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "BladeGhost",
+    "detail_url": "https://classicconqueronline.net/monsters/17/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "Birdman",
+    "detail_url": "https://classicconqueronline.net/monsters/18/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "HawKing",
+    "detail_url": "https://classicconqueronline.net/monsters/19/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "TombBat",
+    "detail_url": "https://classicconqueronline.net/monsters/20/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "FlyingRooster",
+    "detail_url": "https://classicconqueronline.net/monsters/21/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "BlueCooer",
+    "detail_url": "https://classicconqueronline.net/monsters/22/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "GameBird",
+    "detail_url": "https://classicconqueronline.net/monsters/23/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "WarGhost",
+    "detail_url": "https://classicconqueronline.net/monsters/24/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "BattleGhost",
+    "detail_url": "https://classicconqueronline.net/monsters/25/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "FireSnake",
+    "detail_url": "https://classicconqueronline.net/monsters/26/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "CateranBoss",
+    "detail_url": "https://classicconqueronline.net/monsters/27/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "BlueElf",
+    "detail_url": "https://classicconqueronline.net/monsters/28/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "ElfKing",
+    "detail_url": "https://classicconqueronline.net/monsters/29/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "SmartMonkey",
+    "detail_url": "https://classicconqueronline.net/monsters/30/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "RoaringApe",
+    "detail_url": "https://classicconqueronline.net/monsters/31/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "SnowApe",
+    "detail_url": "https://classicconqueronline.net/monsters/32/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "CrazySnake",
+    "detail_url": "https://classicconqueronline.net/monsters/33/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "SandDevil",
+    "detail_url": "https://classicconqueronline.net/monsters/34/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "MountMonster",
+    "detail_url": "https://classicconqueronline.net/monsters/35/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "StoneMonster",
+    "detail_url": "https://classicconqueronline.net/monsters/36/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "BladeMonster",
+    "detail_url": "https://classicconqueronline.net/monsters/37/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "BirdKing",
+    "detail_url": "https://classicconqueronline.net/monsters/38/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "SilverHawk",
+    "detail_url": "https://classicconqueronline.net/monsters/39/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "Robber",
+    "detail_url": "https://classicconqueronline.net/monsters/40/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "RockMonster",
+    "detail_url": "https://classicconqueronline.net/monsters/51/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "BanditL97",
+    "detail_url": "https://classicconqueronline.net/monsters/55/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "HeavyGhostL23",
+    "detail_url": "https://classicconqueronline.net/monsters/64/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "WingedSnakeL28",
+    "detail_url": "https://classicconqueronline.net/monsters/65/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "BanditL33",
+    "detail_url": "https://classicconqueronline.net/monsters/66/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "FireRatL38",
+    "detail_url": "https://classicconqueronline.net/monsters/67/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "FireSpiritL43",
+    "detail_url": "https://classicconqueronline.net/monsters/68/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "MacaqueL48",
+    "detail_url": "https://classicconqueronline.net/monsters/69/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "GiantApeL53",
+    "detail_url": "https://classicconqueronline.net/monsters/70/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "ThunderApeL58",
+    "detail_url": "https://classicconqueronline.net/monsters/71/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "SnakemanL63",
+    "detail_url": "https://classicconqueronline.net/monsters/72/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "SandMonsterL68",
+    "detail_url": "https://classicconqueronline.net/monsters/73/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "HillMonsterL73",
+    "detail_url": "https://classicconqueronline.net/monsters/74/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "RockMonsterL78",
+    "detail_url": "https://classicconqueronline.net/monsters/75/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "BladeGhostL83",
+    "detail_url": "https://classicconqueronline.net/monsters/76/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "BirdmanL88",
+    "detail_url": "https://classicconqueronline.net/monsters/77/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "HawkL93",
+    "detail_url": "https://classicconqueronline.net/monsters/78/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "BanditL98",
+    "detail_url": "https://classicconqueronline.net/monsters/79/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "Banditti",
+    "detail_url": "https://classicconqueronline.net/monsters/84/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "BanditKing",
+    "detail_url": "https://classicconqueronline.net/monsters/85/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "FlyingBat",
+    "detail_url": "https://classicconqueronline.net/monsters/90/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "RockMonsterL17",
+    "detail_url": "https://classicconqueronline.net/monsters/105/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "RockMonsterL42",
+    "detail_url": "https://classicconqueronline.net/monsters/106/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "RockMonsterL72",
+    "detail_url": "https://classicconqueronline.net/monsters/107/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "RockMonsterL92",
+    "detail_url": "https://classicconqueronline.net/monsters/108/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "HugeSnake",
+    "detail_url": "https://classicconqueronline.net/monsters/1400/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "BanditLeader",
+    "detail_url": "https://classicconqueronline.net/monsters/1401/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "HugeSpirit",
+    "detail_url": "https://classicconqueronline.net/monsters/1402/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "CateranSoldier",
+    "detail_url": "https://classicconqueronline.net/monsters/1403/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "SeniorCateran",
+    "detail_url": "https://classicconqueronline.net/monsters/1404/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "CateranLeader",
+    "detail_url": "https://classicconqueronline.net/monsters/1405/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "ChiefCateran",
+    "detail_url": "https://classicconqueronline.net/monsters/1406/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "HugeApe",
+    "detail_url": "https://classicconqueronline.net/monsters/1407/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "SeniorApe",
+    "detail_url": "https://classicconqueronline.net/monsters/1408/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "AlienApe",
+    "detail_url": "https://classicconqueronline.net/monsters/1409/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "SeniorSnakeman",
+    "detail_url": "https://classicconqueronline.net/monsters/1410/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "Serpent",
+    "detail_url": "https://classicconqueronline.net/monsters/1411/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "SeniorSerpent",
+    "detail_url": "https://classicconqueronline.net/monsters/1412/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "AlienSerpent",
+    "detail_url": "https://classicconqueronline.net/monsters/1413/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "Basilisk",
+    "detail_url": "https://classicconqueronline.net/monsters/1414/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "BanditKing",
+    "detail_url": "https://classicconqueronline.net/monsters/3031/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "PoisonousRat",
+    "detail_url": "https://classicconqueronline.net/monsters/3032/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "StoneBandit",
+    "detail_url": "https://classicconqueronline.net/monsters/3033/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "HeresySnakeman",
+    "detail_url": "https://classicconqueronline.net/monsters/3050/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "SeniorBandit",
+    "detail_url": "https://classicconqueronline.net/monsters/3120/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "GanodermaL72",
+    "detail_url": "https://classicconqueronline.net/monsters/3130/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "GanodermaL70",
+    "detail_url": "https://classicconqueronline.net/monsters/3131/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "GanodermaL74",
+    "detail_url": "https://classicconqueronline.net/monsters/3132/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "GanodermaL76",
+    "detail_url": "https://classicconqueronline.net/monsters/3133/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "TitanL77",
+    "detail_url": "https://classicconqueronline.net/monsters/3134/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "TitanL75",
+    "detail_url": "https://classicconqueronline.net/monsters/3135/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "TitanL79",
+    "detail_url": "https://classicconqueronline.net/monsters/3136/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "TitanL81",
+    "detail_url": "https://classicconqueronline.net/monsters/3137/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "Slinger",
+    "detail_url": "https://classicconqueronline.net/monsters/3141/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "GoldGhost",
+    "detail_url": "https://classicconqueronline.net/monsters/3142/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "Gibbon",
+    "detail_url": "https://classicconqueronline.net/monsters/3143/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "Bladeling",
+    "detail_url": "https://classicconqueronline.net/monsters/3144/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "AgileRat",
+    "detail_url": "https://classicconqueronline.net/monsters/3145/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "NagaLord",
+    "detail_url": "https://classicconqueronline.net/monsters/3146/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "BlueBird",
+    "detail_url": "https://classicconqueronline.net/monsters/3147/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "FiendBat",
+    "detail_url": "https://classicconqueronline.net/monsters/3148/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "Talon",
+    "detail_url": "https://classicconqueronline.net/monsters/3149/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "MinotaurL120",
+    "detail_url": "https://classicconqueronline.net/monsters/3155/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "Syren",
+    "detail_url": "https://classicconqueronline.net/monsters/3156/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "FireBat",
+    "detail_url": "https://classicconqueronline.net/monsters/3526/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "UndeadSoldier",
+    "detail_url": "https://classicconqueronline.net/monsters/5045/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "Phantom",
+    "detail_url": "https://classicconqueronline.net/monsters/5046/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "UndeadSpearman",
+    "detail_url": "https://classicconqueronline.net/monsters/5049/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "Revenant",
+    "detail_url": "https://classicconqueronline.net/monsters/5050/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "Eidolon",
+    "detail_url": "https://classicconqueronline.net/monsters/5051/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "Temptress",
+    "detail_url": "https://classicconqueronline.net/monsters/5053/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "Centicore",
+    "detail_url": "https://classicconqueronline.net/monsters/5054/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "Wraith",
+    "detail_url": "https://classicconqueronline.net/monsters/5055/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "HellTroll",
+    "detail_url": "https://classicconqueronline.net/monsters/5056/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "Naga",
+    "detail_url": "https://classicconqueronline.net/monsters/5057/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "Syren",
+    "detail_url": "https://classicconqueronline.net/monsters/5058/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "????",
+    "detail_url": "https://classicconqueronline.net/monsters/5060/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "LonelyTyrant",
+    "detail_url": "https://classicconqueronline.net/monsters/6010/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "Ghost",
+    "detail_url": "https://classicconqueronline.net/monsters/6011/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "VoidDevil",
+    "detail_url": "https://classicconqueronline.net/monsters/7006/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "HumanMessenger",
+    "detail_url": "https://classicconqueronline.net/monsters/8100/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "WingedSnakeMsgr",
+    "detail_url": "https://classicconqueronline.net/monsters/8101/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "BanditMessenger",
+    "detail_url": "https://classicconqueronline.net/monsters/8102/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "RatMessenger",
+    "detail_url": "https://classicconqueronline.net/monsters/8103/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "ElfMessenger",
+    "detail_url": "https://classicconqueronline.net/monsters/8104/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "MonkeyMessenger",
+    "detail_url": "https://classicconqueronline.net/monsters/8105/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "GiantApeMsgr",
+    "detail_url": "https://classicconqueronline.net/monsters/8106/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "ThunderApeMsgr",
+    "detail_url": "https://classicconqueronline.net/monsters/8107/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "SnakemanMsgr",
+    "detail_url": "https://classicconqueronline.net/monsters/8108/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "SandMonsterMsgr",
+    "detail_url": "https://classicconqueronline.net/monsters/8109/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "HillMonsterMsgr",
+    "detail_url": "https://classicconqueronline.net/monsters/8110/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "RockMonsterMsgr",
+    "detail_url": "https://classicconqueronline.net/monsters/8111/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "BladeGhostMsgr",
+    "detail_url": "https://classicconqueronline.net/monsters/8112/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "BirdmanMsgr",
+    "detail_url": "https://classicconqueronline.net/monsters/8113/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "HawkMessenger",
+    "detail_url": "https://classicconqueronline.net/monsters/8114/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "RobberMessenger",
+    "detail_url": "https://classicconqueronline.net/monsters/8115/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "HumanAide",
+    "detail_url": "https://classicconqueronline.net/monsters/8200/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "WingedSnakeAide",
+    "detail_url": "https://classicconqueronline.net/monsters/8201/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "BanditAide",
+    "detail_url": "https://classicconqueronline.net/monsters/8202/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "RatAide",
+    "detail_url": "https://classicconqueronline.net/monsters/8203/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "ElfAide",
+    "detail_url": "https://classicconqueronline.net/monsters/8204/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "MonkeyAide",
+    "detail_url": "https://classicconqueronline.net/monsters/8205/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "GiantApeAide",
+    "detail_url": "https://classicconqueronline.net/monsters/8206/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "ThunderApeAide",
+    "detail_url": "https://classicconqueronline.net/monsters/8207/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "SnakemanAide",
+    "detail_url": "https://classicconqueronline.net/monsters/8208/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "SandMonsterAide",
+    "detail_url": "https://classicconqueronline.net/monsters/8209/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "HillMonsterAide",
+    "detail_url": "https://classicconqueronline.net/monsters/8210/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "RockMonsterAide",
+    "detail_url": "https://classicconqueronline.net/monsters/8211/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "BladeGhostAide",
+    "detail_url": "https://classicconqueronline.net/monsters/8212/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "BirdmanAide",
+    "detail_url": "https://classicconqueronline.net/monsters/8213/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "HawkAide",
+    "detail_url": "https://classicconqueronline.net/monsters/8214/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "RobberAide",
+    "detail_url": "https://classicconqueronline.net/monsters/8215/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "GhostKing",
+    "detail_url": "https://classicconqueronline.net/monsters/8300/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "WingedSnakeKing",
+    "detail_url": "https://classicconqueronline.net/monsters/8301/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "BanditKing",
+    "detail_url": "https://classicconqueronline.net/monsters/8302/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "RatKing",
+    "detail_url": "https://classicconqueronline.net/monsters/8303/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "ElfBoss",
+    "detail_url": "https://classicconqueronline.net/monsters/8304/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "MonkeyKing",
+    "detail_url": "https://classicconqueronline.net/monsters/8305/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "GiantApeKing",
+    "detail_url": "https://classicconqueronline.net/monsters/8306/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "ThunderApeKing",
+    "detail_url": "https://classicconqueronline.net/monsters/8307/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "SnakemanKing",
+    "detail_url": "https://classicconqueronline.net/monsters/8308/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "SandMonsterKing",
+    "detail_url": "https://classicconqueronline.net/monsters/8309/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "HillMonsterKing",
+    "detail_url": "https://classicconqueronline.net/monsters/8310/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "RockMonsterKing",
+    "detail_url": "https://classicconqueronline.net/monsters/8311/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "BladeGhostKing",
+    "detail_url": "https://classicconqueronline.net/monsters/8312/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "BirdmanKing",
+    "detail_url": "https://classicconqueronline.net/monsters/8313/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "HawkBoss",
+    "detail_url": "https://classicconqueronline.net/monsters/8314/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "RobberKing",
+    "detail_url": "https://classicconqueronline.net/monsters/8315/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "MeteorDove",
+    "detail_url": "https://classicconqueronline.net/monsters/8415/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "MeteorDove",
+    "detail_url": "https://classicconqueronline.net/monsters/8416/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "EvilGhost",
+    "detail_url": "https://classicconqueronline.net/monsters/8417/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "NightDevil",
+    "detail_url": "https://classicconqueronline.net/monsters/8418/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "WaterDevil",
+    "detail_url": "https://classicconqueronline.net/monsters/8419/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "WaterLord",
+    "detail_url": "https://classicconqueronline.net/monsters/8420/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "WaterLord",
+    "detail_url": "https://classicconqueronline.net/monsters/8421/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "WaterLord",
+    "detail_url": "https://classicconqueronline.net/monsters/8422/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "monsters",
+    "name": "WaterLord",
+    "detail_url": "https://classicconqueronline.net/monsters/8500/",
+    "source_index": "https://classicconqueronline.net/monsters/",
+    "status": "catalogued"
+  },
+  {
+    "category": "npcs",
+    "name": "Skip to content",
+    "detail_url": "https://classicconqueronline.net/npcs/#content",
+    "source_index": "https://classicconqueronline.net/npcs/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Skip to content",
+    "detail_url": "https://classicconqueronline.net/items/#content",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Upgrading",
+    "detail_url": "https://classicconqueronline.net/guide/items/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Gems",
+    "detail_url": "https://classicconqueronline.net/guide/items/gems/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Upgrading Items",
+    "detail_url": "https://classicconqueronline.net/guide/items/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Warrior Helmets",
+    "detail_url": "https://classicconqueronline.net/items/warrior-helmets/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Archer Hats",
+    "detail_url": "https://classicconqueronline.net/items/archer-hats/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Trojan Coronets",
+    "detail_url": "https://classicconqueronline.net/items/trojan-coronets/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Taoist Caps",
+    "detail_url": "https://classicconqueronline.net/items/taoist-caps/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Archer Coats",
+    "detail_url": "https://classicconqueronline.net/items/archer-coats/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Boots",
+    "detail_url": "https://classicconqueronline.net/items/boots/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Taoist Robes",
+    "detail_url": "https://classicconqueronline.net/items/taoist-robes/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Trojan Armors",
+    "detail_url": "https://classicconqueronline.net/items/trojan-armors/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Warrior Armors",
+    "detail_url": "https://classicconqueronline.net/items/warrior-armors/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Warrior Shields",
+    "detail_url": "https://classicconqueronline.net/items/warrior-shields/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Earrings",
+    "detail_url": "https://classicconqueronline.net/items/earrings/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Necklaces",
+    "detail_url": "https://classicconqueronline.net/items/necklaces/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Taoist Bracelets",
+    "detail_url": "https://classicconqueronline.net/items/taoist-bracelets/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Rings",
+    "detail_url": "https://classicconqueronline.net/items/rings/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Heavy Rings",
+    "detail_url": "https://classicconqueronline.net/items/heavy-rings/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Taoist Bags",
+    "detail_url": "https://classicconqueronline.net/items/taoist-bags/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Blades",
+    "detail_url": "https://classicconqueronline.net/items/blades/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Swords",
+    "detail_url": "https://classicconqueronline.net/items/swords/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Backswords",
+    "detail_url": "https://classicconqueronline.net/items/backswords/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Hooks",
+    "detail_url": "https://classicconqueronline.net/items/hooks/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Whips",
+    "detail_url": "https://classicconqueronline.net/items/whips/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Axes",
+    "detail_url": "https://classicconqueronline.net/items/axes/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Hammers",
+    "detail_url": "https://classicconqueronline.net/items/hammers/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Clubs",
+    "detail_url": "https://classicconqueronline.net/items/clubs/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Scepters",
+    "detail_url": "https://classicconqueronline.net/items/scepters/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Daggers",
+    "detail_url": "https://classicconqueronline.net/items/daggers/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Glaives",
+    "detail_url": "https://classicconqueronline.net/items/glaives/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Poleaxes",
+    "detail_url": "https://classicconqueronline.net/items/poleaxes/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Longhammers",
+    "detail_url": "https://classicconqueronline.net/items/longhammers/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Spears",
+    "detail_url": "https://classicconqueronline.net/items/spears/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Wands",
+    "detail_url": "https://classicconqueronline.net/items/wands/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Halberts",
+    "detail_url": "https://classicconqueronline.net/items/halberts/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Bows",
+    "detail_url": "https://classicconqueronline.net/items/bows/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Mining",
+    "detail_url": "https://classicconqueronline.net/items/mining/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Potions",
+    "detail_url": "https://classicconqueronline.net/items/potions/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  },
+  {
+    "category": "item_category",
+    "name": "Arrows",
+    "detail_url": "https://classicconqueronline.net/items/arrows/",
+    "source_index": "https://classicconqueronline.net/items/",
+    "status": "catalogued"
+  }
+]

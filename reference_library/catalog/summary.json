@@ -1,0 +1,9 @@
+{
+  "records": 219,
+  "categories": {
+    "monsters": 178,
+    "npcs": 1,
+    "item_category": 40
+  },
+  "policy": "catalogue only; no image accepted without visual review"
+}
