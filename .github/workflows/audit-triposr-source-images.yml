@@ -1,0 +1,128 @@
+name: Audit TripoSR Source Images
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/audit-triposr-source-images.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install image audit tools
+        run: python -m pip install --upgrade pillow numpy
+
+      - name: Download original source archive from public Hugging Face dataset
+        run: |
+          python - <<'PY'
+          import urllib.request
+          url = "https://huggingface.co/datasets/ZzwahwahzZ/clash-of-legends-assets/resolve/main/Conquer_TripoSR_42_Models%20(1).zip"
+          urllib.request.urlretrieve(url, "/tmp/source_images.zip")
+          import os
+          print("Downloaded archive bytes:", os.path.getsize("/tmp/source_images.zip"))
+          PY
+
+      - name: Extract and audit original images
+        run: |
+          mkdir -p /tmp/source_images previews/source_images
+          python - <<'PY'
+          import zipfile, os, csv, json, hashlib, math
+          from pathlib import Path
+          from PIL import Image, ImageOps, ImageDraw
+          import numpy as np
+
+          archive = "/tmp/source_images.zip"
+          root = Path("/tmp/source_images")
+          with zipfile.ZipFile(archive) as z:
+              z.extractall(root)
+
+          exts = {".png", ".jpg", ".jpeg", ".webp", ".bmp", ".tif", ".tiff"}
+          files = sorted(p for p in root.rglob("*") if p.is_file() and p.suffix.lower() in exts)
+          out = Path("previews/source_images")
+          out.mkdir(parents=True, exist_ok=True)
+
+          rows, thumbs, hashes = [], [], {}
+          for p in files:
+              try:
+                  raw = p.read_bytes()
+                  im = Image.open(p)
+                  im.load()
+                  im = ImageOps.exif_transpose(im)
+                  w, h = im.size
+                  arr = np.asarray(im.convert("RGB"), dtype=np.float32)
+                  gray = arr.mean(axis=2)
+                  hist = np.histogram(gray, bins=256, range=(0,255))[0].astype(float)
+                  prob = hist / max(hist.sum(), 1)
+                  nz = prob[prob > 0]
+                  entropy = float(-(nz * np.log2(nz)).sum())
+                  brightness = float(gray.mean())
+                  contrast = float(gray.std())
+                  edges_x = np.abs(np.diff(gray, axis=1)).mean() if w > 1 else 0
+                  edges_y = np.abs(np.diff(gray, axis=0)).mean() if h > 1 else 0
+                  sha = hashlib.sha256(raw).hexdigest()
+                  duplicate = hashes.get(sha, "")
+                  hashes.setdefault(sha, str(p.relative_to(root)))
+                  rows.append({
+                    "file": str(p.relative_to(root)), "bytes": len(raw), "width": w, "height": h,
+                    "aspect_ratio": round(w / h, 4) if h else "",
+                    "format": im.format or p.suffix.lower().lstrip("."),
+                    "mode": im.mode, "has_alpha": "A" in im.getbands(),
+                    "sha256": sha, "exact_duplicate_of": duplicate,
+                    "grayscale_entropy_bits": round(entropy, 3),
+                    "mean_brightness_0_255": round(brightness, 2),
+                    "contrast_stddev": round(contrast, 2),
+                    "mean_edge_change": round(float((edges_x + edges_y) / 2), 2),
+                    "megapixels": round(w*h/1e6, 3)
+                  })
+                  thumb = ImageOps.contain(im.convert("RGB"), (180, 150))
+                  tile = Image.new("RGB", (210, 195), "white")
+                  tile.paste(thumb, ((210-thumb.width)//2, 4+(150-thumb.height)//2))
+                  d = ImageDraw.Draw(tile)
+                  label = p.name[:29]
+                  d.text((5, 158), label, fill="black")
+                  d.text((5, 174), f"{w}x{h} | {len(raw)//1024} KB", fill="black")
+                  thumbs.append(tile)
+              except Exception as e:
+                  rows.append({"file": str(p.relative_to(root)), "error": repr(e)})
+
+          with open(out / "image_quality_audit.csv", "w", newline="", encoding="utf-8") as f:
+              cols = sorted({k for row in rows for k in row})
+              wr = csv.DictWriter(f, fieldnames=cols)
+              wr.writeheader(); wr.writerows(rows)
+
+          cols = 4
+          rows_n = math.ceil(len(thumbs)/cols) if thumbs else 1
+          sheet = Image.new("RGB", (cols*210, rows_n*195), "#dddddd")
+          for i, t in enumerate(thumbs):
+              sheet.paste(t, ((i%cols)*210, (i//cols)*195))
+          sheet.save(out / "source_images_contact_sheet.jpg", quality=92)
+
+          summary = {
+            "archive_bytes": os.path.getsize(archive),
+            "image_files_found": len(files),
+            "successfully_read": sum(1 for r in rows if "width" in r),
+            "read_errors": [r for r in rows if "error" in r],
+            "exact_duplicate_groups": len(set(v for v in hashes.values() if v)),
+            "total_extracted_files": sum(1 for p in root.rglob("*") if p.is_file()),
+            "note": "Metrics are screening indicators only; visual suitability for single-image-to-3D reconstruction requires human visual review."
+          }
+          (out / "summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
+          print(json.dumps(summary, ensure_ascii=False, indent=2))
+          if not files:
+              raise SystemExit("No source images found in archive")
+          PY
+
+      - name: Commit image audit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add previews/source_images
+          git commit -m "Audit TripoSR source image quality" || echo "No changes to commit"
+          git push
