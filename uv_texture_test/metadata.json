@@ -1,0 +1,55 @@
+{
+  "project": "Conquer Mobile Assets",
+  "stage": "3-model UV texture projection test",
+  "method": "xatlas UV unwrap + image projection bake into RGBA UV atlas",
+  "warning": "Single-image projection test only; it is not multi-view semantic texturing or a final production PBR material.",
+  "source_archive": "Conquer_TripoSR_42_Models.zip",
+  "matched_pairs": 42,
+  "results": [
+    {
+      "sample": 1,
+      "source_image": "characters/characters_0001_82-2301311S631X8.png",
+      "source_glb": "characters__characters_0001_82-2301311S631X8.glb",
+      "output_glb": "uv_01_characters__characters_0001_82-2301311S631X8.glb",
+      "texture_png": "uv_01_characters__characters_0001_82-2301311S631X8_texture.png",
+      "vertices_after_unwrap": 27815,
+      "faces": 38196,
+      "texture_resolution": "1024x1024",
+      "glb_bytes": 1864592,
+      "texture_bytes": 848645,
+      "uv_verified": true,
+      "texture_verified": true,
+      "status": "SUCCESS"
+    },
+    {
+      "sample": 2,
+      "source_image": "characters/characters_0002_82-2301311SA3T5.png",
+      "source_glb": "characters__characters_0002_82-2301311SA3T5.glb",
+      "output_glb": "uv_02_characters__characters_0002_82-2301311SA3T5.glb",
+      "texture_png": "uv_02_characters__characters_0002_82-2301311SA3T5_texture.png",
+      "vertices_after_unwrap": 27267,
+      "faces": 36232,
+      "texture_resolution": "1024x1024",
+      "glb_bytes": 1781060,
+      "texture_bytes": 799642,
+      "uv_verified": true,
+      "texture_verified": true,
+      "status": "SUCCESS"
+    },
+    {
+      "sample": 3,
+      "source_image": "characters/characters_0003_82-2301311R332234.png",
+      "source_glb": "characters__characters_0003_82-2301311R332234.glb",
+      "output_glb": "uv_03_characters__characters_0003_82-2301311R332234.glb",
+      "texture_png": "uv_03_characters__characters_0003_82-2301311R332234_texture.png",
+      "vertices_after_unwrap": 31080,
+      "faces": 39508,
+      "texture_resolution": "1024x1024",
+      "glb_bytes": 1958440,
+      "texture_bytes": 861451,
+      "uv_verified": true,
+      "texture_verified": true,
+      "status": "SUCCESS"
+    }
+  ]
+}
