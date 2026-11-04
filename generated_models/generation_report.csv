@@ -18,3 +18,4 @@ characters/characters_0016_82-2301311UJ1321.png,FAILED,,,0,0,TypeError: TSR.extr
 characters/characters_0017_82-2301311Z0512c.png,FAILED,,,0,0,TypeError: TSR.extract_mesh() missing 1 required positional argument: 'has_vertex_color'
 characters/characters_0018_82-2301311Z1323c.png,FAILED,,,0,0,TypeError: TSR.extract_mesh() missing 1 required positional argument: 'has_vertex_color'
 characters/characters_0019_82-230201112611110.png,FAILED,,,0,0,TypeError: TSR.extract_mesh() missing 1 required positional argument: 'has_vertex_color'
+characters/characters_0020_82-230201112K1a1.png,FAILED,,,0,0,TypeError: TSR.extract_mesh() missing 1 required positional argument: 'has_vertex_color'
