@@ -1,0 +1,39 @@
+{
+  "project": "Conquer Mobile Assets",
+  "stage": "3-model vertex-color proof of concept",
+  "method": "front projection of source image colors onto mesh vertices",
+  "note": "This is a preliminary vertex-color test, not final UV/PBR texturing.",
+  "source_archive": "Conquer_TripoSR_42_Models.zip",
+  "samples": [
+    {
+      "sample": 1,
+      "source_image": "characters/characters_0001_82-2301311S631X8.png",
+      "source_glb": "characters__characters_0001_82-2301311S631X8.glb",
+      "output_glb": "test_01_characters__characters_0001_82-2301311S631X8_VERTEX_COLOR.glb",
+      "vertices": 19182,
+      "faces": 38196,
+      "bytes": 766336,
+      "status": "SUCCESS"
+    },
+    {
+      "sample": 2,
+      "source_image": "characters/characters_0002_82-2301311SA3T5.png",
+      "source_glb": "characters__characters_0002_82-2301311SA3T5.glb",
+      "output_glb": "test_02_characters__characters_0002_82-2301311SA3T5_VERTEX_COLOR.glb",
+      "vertices": 18193,
+      "faces": 36232,
+      "bytes": 726944,
+      "status": "SUCCESS"
+    },
+    {
+      "sample": 3,
+      "source_image": "characters/characters_0003_82-2301311R332234.png",
+      "source_glb": "characters__characters_0003_82-2301311R332234.glb",
+      "output_glb": "test_03_characters__characters_0003_82-2301311R332234_VERTEX_COLOR.glb",
+      "vertices": 19895,
+      "faces": 39508,
+      "bytes": 793488,
+      "status": "SUCCESS"
+    }
+  ]
+}
