@@ -1,0 +1,71 @@
+name: Import TripoSR 42 assets from Hugging Face
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/import-hf-triposr-assets.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: import-hf-triposr-assets
+  cancel-in-progress: false
+
+jobs:
+  import-assets:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Download public Hugging Face dataset files
+        run: |
+          python -m pip install --upgrade huggingface_hub
+          python - <<'PY'
+          from huggingface_hub import snapshot_download
+          from pathlib import Path
+          import shutil
+
+          source = Path(snapshot_download(
+              repo_id="ZzwahwahzZ/clash-of-legends-assets",
+              repo_type="dataset",
+              allow_patterns=["*.glb", "*.obj", "generation_report.csv"],
+          ))
+          target = Path("assets/triposr_42")
+          target.mkdir(parents=True, exist_ok=True)
+
+          copied = []
+          for item in sorted(source.iterdir()):
+              if item.is_file() and (item.suffix.lower() in {".glb", ".obj"} or item.name == "generation_report.csv"):
+                  shutil.copy2(item, target / item.name)
+                  copied.append(item.name)
+
+          glb_count = sum(name.lower().endswith(".glb") for name in copied)
+          obj_count = sum(name.lower().endswith(".obj") for name in copied)
+          if glb_count != 42 or obj_count != 42:
+              raise SystemExit(f"Expected 42 GLB + 42 OBJ; got {glb_count} GLB + {obj_count} OBJ")
+          print(f"Imported {glb_count} GLB and {obj_count} OBJ files.")
+          PY
+
+      - name: Commit imported assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/triposr_42
+          if git diff --cached --quiet; then
+            echo "No asset changes to commit."
+          else
+            git commit -m "Import 42 TripoSR GLB and OBJ assets from Hugging Face"
+            git push
+          fi
