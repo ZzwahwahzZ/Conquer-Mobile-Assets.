@@ -30,3 +30,4 @@ monsters/monsters_0002_111214_hero.jpg,FAILED,,,0,0,TypeError: TSR.extract_mesh(
 monsters/monsters_0003_co_w19s.jpg,FAILED,,,0,0,TypeError: TSR.extract_mesh() missing 1 required positional argument: 'has_vertex_color'
 monsters/monsters_0004_co800_w19sn3LDR1J6T6.jpg,FAILED,,,0,0,TypeError: TSR.extract_mesh() missing 1 required positional argument: 'has_vertex_color'
 monsters/monsters_0005_co_w20s.jpg,FAILED,,,0,0,TypeError: TSR.extract_mesh() missing 1 required positional argument: 'has_vertex_color'
+monsters/monsters_0006_co800_w20s4HYM32L4l2.jpg,FAILED,,,0,0,TypeError: TSR.extract_mesh() missing 1 required positional argument: 'has_vertex_color'
