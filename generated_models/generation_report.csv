@@ -24,3 +24,4 @@ maps/maps_0001_82-2302131A130446.jpg,FAILED,,,0,0,TypeError: TSR.extract_mesh() 
 maps/maps_0002_82-2302131A511K8.jpg,FAILED,,,0,0,TypeError: TSR.extract_mesh() missing 1 required positional argument: 'has_vertex_color'
 maps/maps_0003_82-2302131F242N2.jpg,FAILED,,,0,0,TypeError: TSR.extract_mesh() missing 1 required positional argument: 'has_vertex_color'
 maps/maps_0004_82-2302131F61Nb.jpg,FAILED,,,0,0,TypeError: TSR.extract_mesh() missing 1 required positional argument: 'has_vertex_color'
+maps/maps_0005_82-2302131FU3646.jpg,FAILED,,,0,0,TypeError: TSR.extract_mesh() missing 1 required positional argument: 'has_vertex_color'
