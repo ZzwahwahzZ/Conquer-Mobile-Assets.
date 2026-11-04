@@ -1,0 +1,8 @@
+category,source_name,url,known_coverage,variant,asset_status,notes
+monsters,Classic Conquer community monster index,https://classicconqueronline.net/monsters/,177 records,classic PC, catalog_only,Individual detail pages expose model viewer but downloadable image/model availability must be checked
+npcs,Classic Conquer community NPC index,https://classicconqueronline.net/npcs/,167 records,classic PC, catalog_only,Includes names maps coordinates and quest/vendor roles; individual visual references still needed
+equipment,Classic Conquer community item index,https://classicconqueronline.net/items/,multiple item classes,classic PC, catalog_only,Category pages include item stats and some image column references
+weapons,Conquer Online item guide,https://www.conqueronline.com/guide/items/items.shtml,many weapon and armor classes,PC/mobile variant unclear, catalog_only,Use category taxonomy only; do not use official site as an image source
+client_data,Conquer Online Development Wiki,https://conquer-online.github.io/wiki/files/content/itemtype.dat.html,Monster.dat Npc.ini ItemType.dat mounttype.dat GameMap.dat,classic client formats,metadata_reference,Documentation only not images
+archive,TQ Digital Games Archive,https://tqarchive.org/,historical client and patch archive,classic PC,archive_reference,Not a direct image library
+modern_3d,Nox community project,https://noxconquest.com/,monsters NPCs mounts garments,custom classic PC,visual_comparison_only,Do not assume Mobile visual equivalence
